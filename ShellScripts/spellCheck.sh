@@ -1,3 +1,8 @@
+# A Shell spell check program that is based on the package aspell. The user enters a word, and it is tested to make sure it isn't null.
+#Next, the word is fed into aspell, and the result is egrepped for an asterick since aspell returns an asterick when a word is in its 
+#dictionary. The user is informed if the word is spelled correctly or misspelled and then gives the option to check a new word.
+
+
 #Kyndra Zacherl Spell Check
 #added to /usr/bin
 echo "Please make sure aspell is installed before using this script."
