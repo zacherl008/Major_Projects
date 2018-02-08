@@ -1,0 +1,5 @@
+A simulated ecosystem containing sheep, grass, and wolves created using object-oriented Java and represented with a GUI using JavaFX. Each animal extends an encapsulated abstract class which contains their lifespan, reproduction rate, and hunger and provides functions for reproducing, eating, migrating, and dying. 
+
+A 3x3 world containing 9 distinct acres is created, and randomly populated with sheep, wolves, and grass which are shuffled into an inhabitant ArrayList. Each acre (if possible) has a north, south, west, and east acre set for migration purposes. Each additional day begins when the "Cycle" button in the GUI is pressed; each acre grows grass (if there is room), ages the animals, and loops through its animals, giving them the option to reproduce/migrate/die if the requirements for each are met.
+
+Also included are development documents: a UML diagram, a UML sequence diagram, and control flow diagrams for the reproduce and migrate functions.
