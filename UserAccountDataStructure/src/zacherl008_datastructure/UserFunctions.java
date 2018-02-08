@@ -33,7 +33,7 @@ public class UserFunctions{
             h.ps("This username is in use. Please try again: ");
             username = scan.next();
             if(! existsUN(username)){
-                h.pl("You are dumb. Goodbye.");
+                h.pl("Please follow instructions. Goodbye.");
                 System.exit(0);   
             }
         }
@@ -51,7 +51,7 @@ public class UserFunctions{
             h.ps("Please enter a credit card: ");
             CC = scan.next();
             if(! CC.matches("\\d{8,19}")){
-                h.pl("You are dumb. Goodbye.");
+                h.pl("Please follow instructions. Goodbye.");
                 System.exit(0);
             }
         }
@@ -63,7 +63,7 @@ public class UserFunctions{
             h.ps("Please enter a 5 digit zipcode: ");
             zipcode  = scan.next();
             if(! zipcode.matches("\\d{5}")){
-                h.pl("You are dumb. Goodbye.");
+                h.pl("Please follow instructions. Goodbye.");
                 System.exit(0);
             }
         }
@@ -75,7 +75,7 @@ public class UserFunctions{
             h.ps("Please enter your date of birth in MM/DD/YYYY format: ");
             birthdate = scan.next();
             if(! birthdate.matches("\\d{2}/\\d{2}/\\d{4}")){
-                h.pl("You are dumb. Goodbye.");
+                h.pl("Please follow instructions. Goodbye.");
                 System.exit(0);
             }
         }
