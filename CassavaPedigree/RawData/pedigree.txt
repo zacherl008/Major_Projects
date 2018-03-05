@@ -1,9 +1,0 @@
-Accession	Female_Parent	Male_Parent
-ANG14 	   	 
-ANG18 	   	 
-ANG20 	   	 
-ANG26 	   	 
-ANKRA 	   	 
-B9100455 	   	 
-
-No pedigrees found in the Database for the accessions searched. 
